@@ -1,0 +1,59 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f0f5fb;
+    font-weight: 400;
+    position: relative;
+}
+
+.toolbox {
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    width: 250px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 8%);
+    padding: 1rem 1rem;
+}
+
+.toolbox h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.toolbox p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.toolbox .clearfix {
+    margin-bottom: 1rem;
+}
+
+.form label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000 ;
+}
+
+.form .form-control {
+    border-radius: 0px;
+}
+
+.form .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form .remove-btn {
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 0.5;
+}
